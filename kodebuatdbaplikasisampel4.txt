@@ -1,0 +1,4 @@
+create database aplikasisampel4;
+use aplikasisampel4;
+create table lokasi (kodelokasi varchar(3) not null primary key, namalokasi varchar(20) not null, keterangan text);
+create table barang (kodebarang varchar(30) not null primary key, namabarang varchar(50) not null, harga double(12,0) null, satuan varchar(10) null, tanggalbeli date, kondisi varchar(12) null);
